@@ -1,0 +1,73 @@
+/*************** font******************* */
+@font-face {
+    font-family: "raleway-regular";
+    scr: url(../fonts/Raleway-Regular.ttf)
+}
+
+@font-face {
+    font-family: "raleway-medium";
+    scr: url(../fonts/Raleway-Medium.ttf)
+}
+
+@font-face {
+    font-family: "raleway-bold";
+    scr: url(../fonts/Raleway-bold.ttf)
+}
+
+@font-face {
+    font-family: "raleway-semibold";
+    scr: url(../fonts/Raleway-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: "raleway-black";
+    scr: url(../fonts/Raleway-black.ttf)
+}
+
+
+/* ************************color********************* */
+:root {
+    --primary: #eebf00;
+    --secondary: #232b38;
+    --ternary: #6c6c6c;
+    --danger: #fe4545;
+    --pure: #fefefe;
+    --light: fofofo;
+    --heaven: ffffff;
+    --footer: #2d333F;
+
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+@media {
+    min-width: 576px;
+    .container max-width: 540px;
+}
+
+* {
+    padding: 0;
+    marging: 0;
+    box-sizing: border-box;
+}
+
+header.topvar {
+    background: var(--secondary);
+    color: #fefefe;
+    text-decoration: none;
+}
+
+header.topvar.auth>div a {
+    colorvar: (--pure);
+    text-decoration: none;
+
+}
+
+header .topbar .container {
+    display: flex;
+}
